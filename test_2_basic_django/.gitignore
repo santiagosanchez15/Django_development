@@ -1,2 +1,19 @@
+# Virtual environment
 .venv
-.pycache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables (secrets, API keys, etc.)
+.env
+
+# IDE/editor
+.vscode/
+.DS_Store
